@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Writer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Writer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Writer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/App.h" />
+		<Unit filename="include/AppMenu.h" />
+		<Unit filename="include/App_WebBrowser.h" />
+		<Unit filename="include/Article.h" />
+		<Unit filename="include/Blogpost.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/ComputerDesktop.h" />
+		<Unit filename="include/ComputerLoading.h" />
+		<Unit filename="include/ContinuityManager.h" />
+		<Unit filename="include/DialogueBox.h" />
+		<Unit filename="include/GameWindow.h" />
+		<Unit filename="include/InputHandler.h" />
+		<Unit filename="include/MainMenu.h" />
+		<Unit filename="include/Settings.h" />
+		<Unit filename="include/SplashScreen.h" />
+		<Unit filename="include/SpriteContainer.h" />
+		<Unit filename="include/Textures.h" />
+		<Unit filename="include/Website.h" />
+		<Unit filename="include/enumController.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/App.cpp" />
+		<Unit filename="src/AppMenu.cpp" />
+		<Unit filename="src/App_WebBrowser.cpp" />
+		<Unit filename="src/Article.cpp" />
+		<Unit filename="src/Blogpost.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/ComputerDesktop.cpp" />
+		<Unit filename="src/ComputerLoading.cpp" />
+		<Unit filename="src/ContinuityManager.cpp" />
+		<Unit filename="src/DialogueBox.cpp" />
+		<Unit filename="src/GameWindow.cpp" />
+		<Unit filename="src/InputHandler.cpp" />
+		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/Settings.cpp" />
+		<Unit filename="src/SplashScreen.cpp" />
+		<Unit filename="src/SpriteContainer.cpp" />
+		<Unit filename="src/Textures.cpp" />
+		<Unit filename="src/Website.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

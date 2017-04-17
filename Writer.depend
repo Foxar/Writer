@@ -1,0 +1,197 @@
+# depslib dependency file v1.0
+1491737660 source:c:\users\foxar-working\desktop\writer\main.cpp
+	<SFML/Graphics.hpp>
+	"GameWindow.h"
+	<iostream>
+
+1492362929 c:\users\foxar-working\desktop\writer\include\gamewindow.h
+	"enumController.h"
+	"SpriteContainer.h"
+	"SplashScreen.h"
+	"Button.h"
+	"MainMenu.h"
+	"InputHandler.h"
+	"Textures.h"
+	"ComputerLoading.h"
+	"ComputerDesktop.h"
+	"Settings.h"
+	"ContinuityManager.h"
+	<iostream>
+
+1492183090 c:\users\foxar-working\desktop\writer\include\spritecontainer.h
+	<vector>
+	<SFML/Graphics.hpp>
+
+1491041160 c:\users\foxar-working\desktop\writer\include\splashscreen.h
+	<SFML/Graphics.hpp>
+
+1492426190 source:c:\users\foxar-working\desktop\writer\src\gamewindow.cpp
+	"GameWindow.h"
+	"SplashScreen.h"
+	"ComputerLoading.h"
+	"Settings.h"
+	"enumController.h"
+	"ContinuityManager.h"
+
+1491226875 source:c:\users\foxar-working\desktop\writer\src\mainmenu.cpp
+	"MainMenu.h"
+	"GameWindow.h"
+
+1491484152 c:\users\foxar-working\desktop\writer\include\mainmenu.h
+	<SFML/Graphics.hpp>
+	"enumController.h"
+
+1491041394 source:c:\users\foxar-working\desktop\writer\src\splashscreen.cpp
+	"SplashScreen.h"
+	"GameWindow.h"
+
+1490904306 source:c:\users\foxar-working\desktop\writer\src\spritecontainer.cpp
+	"SpriteContainer.h"
+
+1490906303 source:c:\users\foxar-working\desktop\writer\src\webbrowser.cpp
+	"WebBrowser.h"
+
+1491484191 c:\users\foxar-working\desktop\writer\include\webbrowser.h
+	"enumController.h"
+
+1491083002 c:\users\foxar-working\desktop\writer\include\inputhandler.h
+	<SFML/Graphics.hpp>
+
+1491045972 source:c:\users\foxar-working\desktop\writer\src\inputhandler.cpp
+	"InputHandler.h"
+	"GameWindow.h"
+
+1492356829 c:\users\foxar-working\desktop\writer\include\textures.h
+	<SFML/Graphics.hpp>
+
+1492356856 source:c:\users\foxar-working\desktop\writer\src\textures.cpp
+	"Textures.h"
+
+1491084272 c:\users\foxar-working\desktop\writer\include\computerloading.h
+
+1491084299 source:c:\users\foxar-working\desktop\writer\src\computerloading.cpp
+	"ComputerLoading.h"
+	"GameWindow.h"
+	"Button.h"
+
+1492357413 c:\users\foxar-working\desktop\writer\include\computerdesktop.h
+	<SFML/Graphics.hpp>
+	"Button.h"
+	"App.h"
+	"AppMenu.h"
+	"DialogueBox.h"
+	"Article.h"
+
+1492361471 source:c:\users\foxar-working\desktop\writer\src\computerdesktop.cpp
+	"ComputerDesktop.h"
+	"GameWindow.h"
+	"Textures.h"
+	"Button.h"
+	"App.h"
+	"App_WebBrowser.h"
+
+1491999851 c:\users\foxar-working\desktop\writer\include\button.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"enumController.h"
+
+1492361514 source:c:\users\foxar-working\desktop\writer\src\button.cpp
+	"Button.h"
+	"Textures.h"
+	"GameWindow.h"
+	"App_WebBrowser.h"
+
+1491150938 c:\users\foxar-working\desktop\writer\include\settings.h
+	"Button.h"
+
+1491506221 source:c:\users\foxar-working\desktop\writer\src\settings.cpp
+	"Settings.h"
+	"GameWindow.h"
+	"Button.h"
+
+1491582099 c:\users\foxar-working\desktop\writer\include\app.h
+	<SFML/Graphics.hpp>
+	"Button.h"
+
+1492172822 source:c:\users\foxar-working\desktop\writer\src\app.cpp
+	"App.h"
+	"Textures.h"
+	"GameWindow.h"
+
+1491983582 c:\users\foxar-working\desktop\writer\include\appmenu.h
+	<SFML/Graphics.hpp>
+	"Button.h"
+
+1491252308 source:c:\users\foxar-working\desktop\writer\src\appmenu.cpp
+	"AppMenu.h"
+	"GameWindow.h"
+	"MainMenu.h"
+	"Button.h"
+	"ComputerDesktop.h"
+	"Textures.h"
+	"App_WebBrowser.h"
+
+1492179596 source:c:\users\foxar-working\desktop\writer\src\app_webbrowser.cpp
+	"App_WebBrowser.h"
+	"GameWindow.h"
+	"Website.h"
+
+1492174880 c:\users\foxar-working\desktop\writer\include\app_webbrowser.h
+	"App.h"
+
+1492291884 c:\users\foxar-working\desktop\writer\include\website.h
+	"App_WebBrowser.h"
+	"Button.h"
+	"Article.h"
+	"Blogpost.h"
+	"ContinuityManager.h"
+
+1492425777 source:c:\users\foxar-working\desktop\writer\src\website.cpp
+	"Website.h"
+	"GameWindow.h"
+	"Button.h"
+	"App.h"
+	"App_WebBrowser.h"
+	"ComputerDesktop.h"
+	"enumController.h"
+
+1492442289 c:\users\foxar-working\desktop\writer\include\enumcontroller.h
+
+1492442861 c:\users\foxar-working\desktop\writer\include\article.h
+	<SFML/Graphics.hpp>
+	"enumController.h"
+
+1492425903 source:c:\users\foxar-working\desktop\writer\src\article.cpp
+	"Article.h"
+	"GameWindow.h"
+	"ComputerDesktop.h"
+	"Textures.h"
+
+1492169926 c:\users\foxar-working\desktop\writer\include\dialoguebox.h
+	"Button.h"
+
+1492184947 source:c:\users\foxar-working\desktop\writer\src\dialoguebox.cpp
+	"DialogueBox.h"
+	"Textures.h"
+	"GameWindow.h"
+	"App_WebBrowser.h"
+	"Website.h"
+
+1492361183 c:\users\foxar-working\desktop\writer\include\blogpost.h
+	"App_WebBrowser.h"
+	"Button.h"
+	"Article.h"
+
+1492362785 source:c:\users\foxar-working\desktop\writer\src\blogpost.cpp
+	"Blogpost.h"
+	"Website.h"
+	"GameWindow.h"
+
+1492425974 c:\users\foxar-working\desktop\writer\include\continuitymanager.h
+	"enumController.h"
+	"Blogpost.h"
+
+1492443685 source:c:\users\foxar-working\desktop\writer\src\continuitymanager.cpp
+	"ContinuityManager.h"
+	"GameWindow.h"
+
